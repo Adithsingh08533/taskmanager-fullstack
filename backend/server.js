@@ -13,12 +13,10 @@ const dashboardRoutes = require('./routes/dashboard.routes');
 
 const app = express();
 
-// ✅ CORS (Allow both the custom and default Vercel domains)
+// ✅ CORS (Allow the Railway frontend domain)
 const allowedOrigins = [
   process.env.FRONTEND_URL,
-  'https://taskmanager-frontend.vercel.app',
-  'https://taskmanager-fullstack-tawny.vercel.app',
-  'https://taskmanager-frontend.up.railway.app'
+  'https://taskmanager-frontend-production-5fa1.up.railway.app'
 ].filter(Boolean);
 
 app.use(cors({
