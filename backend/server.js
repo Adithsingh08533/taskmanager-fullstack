@@ -17,7 +17,8 @@ const app = express();
 const allowedOrigins = [
   process.env.FRONTEND_URL,
   'https://taskmanager-frontend.vercel.app',
-  'https://taskmanager-fullstack-tawny.vercel.app'
+  'https://taskmanager-fullstack-tawny.vercel.app',
+  'https://taskmanager-frontend.up.railway.app'
 ].filter(Boolean);
 
 app.use(cors({
