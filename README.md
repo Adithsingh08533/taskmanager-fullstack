@@ -1,5 +1,13 @@
 # Team Task Manager (Fullstack SaaS)
 
+🔗 Live Demo (Vercel): https://taskmanager-fullstack-roan.vercel.app  
+🔗 Backend API: https://taskmanager-fullstack.onrender.com
+
+# Railway
+
+🔗 Live Demo (Railway): https://taskmanager-frontend-production-5fa1.up.railway.app  
+🔗 Backend API: https://taskmanager-fullstack-production-c2b6.up.railway.app/
+
 A professional, minimal Team Task Manager built with React (Vite), Node.js (Express), MySQL (Sequelize), and Tailwind CSS.
 
 ## Features
