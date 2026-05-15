@@ -16,7 +16,8 @@ const app = express();
 // ✅ CORS (Allow the Railway frontend domain)
 const allowedOrigins = [
   process.env.FRONTEND_URL,
-  'https://taskmanager-frontend-production-5fa1.up.railway.app'
+  'https://taskmanager-frontend-production-5fa1.up.railway.app',
+  'https://taskmanager-fullstack-roan.vercel.app'
 ].filter(Boolean);
 
 app.use(cors({
